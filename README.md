@@ -254,14 +254,15 @@ showError()/hideError()         - методы для того чтобы ото
 ## События, возникающие при работе с приложением
 
 Список событий который будет использоваться в приложении:
-
-  ITEMS_UPDATED             = 'ITEMS_UPDATED'         - загрузка всех товаров с сервера \
-  MODAL_CLOSE               = 'MODAL_CLOSE'           - закрытие модального окна \
-  BASKET_OPEN               = 'BASKET_OPEN'           - открытие модалки с корзиной \
-  ITEM_REMOVED              = 'ITEM_REMOVED'          - удаление товара из корзины \
-  ITEM_ADDED                = 'ITEM_ADDED'            - товар добавлен в корзину \
-  BASKET_CLEARED            = 'BASKET_CLEARED'        - очистка корзины \
-  PREVIEW_UPDATED           = 'PREVIEW_UPDATED'       - модалка с полным описание товара \
-  ADDRESS_FORM_OPEN         = 'ORDER_ADDRESS_OPEN'    - модалка с адресом открыта \
-  CONTACTS_FORM_OPEN        = 'ORDER_CONTACTS_OPEN'   - модалка с контактами открыта \
-  ORDER_RESULT_OPEN         = 'ORDER_FINISH_OPEN'     - модалка с результатом заказа открыта \
+```
+  ITEMS_UPDATED             = 'ITEMS_UPDATED'         - загрузка всех товаров с сервера 
+  MODAL_CLOSE               = 'MODAL_CLOSE'           - закрытие модального окна 
+  BASKET_OPEN               = 'BASKET_OPEN'           - открытие модалки с корзиной 
+  ITEM_REMOVED              = 'ITEM_REMOVED'          - удаление товара из корзины 
+  ITEM_ADDED                = 'ITEM_ADDED'            - товар добавлен в корзину 
+  BASKET_CLEARED            = 'BASKET_CLEARED'        - очистка корзины 
+  PREVIEW_UPDATED           = 'PREVIEW_UPDATED'       - модалка с полным описание товара 
+  ADDRESS_FORM_OPEN         = 'ORDER_ADDRESS_OPEN'    - модалка с адресом открыта 
+  CONTACTS_FORM_OPEN        = 'ORDER_CONTACTS_OPEN'   - модалка с контактами открыта 
+  ORDER_RESULT_OPEN         = 'ORDER_FINISH_OPEN'     - модалка с результатом заказа открыта 
+  ```

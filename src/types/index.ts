@@ -35,6 +35,8 @@ export interface IOrderResult {
   total: number;
 }
 
+export type Errors<T extends object> = Partial<Record<keyof T, string>>;
+
 export interface IAppData {
   preview: ICard;
   catalog: ICard[];

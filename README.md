@@ -302,8 +302,8 @@ _не имеет возвратного значения_
 
 `set locked(value: boolean)`\
 Блокировка/разблокировка интерфейса:\
-При `true` добавляет класс page__wrapper_locked к wrapper'у\
-При `false` удаляет класс page__wrapper_locked
+Внутри используется родительский метод для переключение класса
+`this.toggleClass(this._wrapper, 'page__wrapper_locked', value);`
 
 _имеет параметры вызова, логический_
 _без возвратного значения_

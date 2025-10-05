@@ -197,9 +197,7 @@ api
 .then((items) => {
 	appData.catalog = items;
 })
-.catch((err) => {
-	return Promise.reject(err);
-})
+.catch(console.error);
 
 
 
